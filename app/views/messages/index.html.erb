@@ -1,0 +1,26 @@
+<h1><%= @student.name %>'s messages</h1>
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Content</th>
+      <th width = "144"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @messages.each do |message| %>
+      <tr>
+        <td><%= message.title %></td>
+        <td><%= message.content %></td>
+        <td><%= link_to 'Show', student_message_path(@student, message), class: 'btn btn-xs' %>
+        <%= link_to 'Destroy',student_message_path(@student, message), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-xs btn-danger' %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Message', new_student_message_path(@student) %>

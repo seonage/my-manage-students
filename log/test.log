@@ -1,0 +1,1717 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Command :: file -b --mime '/home/saasbook/Documents/odev/spec/assets/attachments/test.jpeg'
+Command :: file -b --mime-type '/tmp/6a05d03bd2bdffc62dd11f09d75cd07b20140509-15952-1d0566c'
+  [1m[36m (0.7ms)[0m  [1mSAVEPOINT active_record_1[0m
+Command :: file -b --mime-type '/tmp/f28ed29eda6574caebcd5d981cbf6bd720140509-15952-ejr06k'
+  [1m[35mSQL (109.9ms)[0m  INSERT INTO "attachments" ("created_at", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:08:55 UTC +00:00], ["file_content_type", "image/jpeg"], ["file_file_name", "test.jpeg"], ["file_file_size", 6917], ["file_updated_at", Fri, 09 May 2014 06:08:55 UTC +00:00], ["updated_at", Fri, 09 May 2014 06:08:55 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/home/saasbook/Documents/odev/spec/assets/attachments/test.jpeg'
+Command :: file -b --mime-type '/tmp/243a73ed05c8969799ec002faef59ef220140509-15952-1x00daz'
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/home/saasbook/Documents/odev/spec/assets/attachments/test.jpeg'
+Command :: file -b --mime-type '/tmp/5558b148253ad1be0053282e4cb72cde20140509-15952-1pfd0by'
+Command :: file -b --mime-type '/tmp/978ca2048bb2e59169f2276da24a5d7020140509-15952-1y9rxqb'
+Command :: file -b --mime-type '/tmp/4fa4e0320a2ffdffc64cd42a1405d51120140509-15952-m5wp1g'
+Command :: file -b --mime-type '/tmp/f7ee40f3396631a155d1183a0f9ca41c20140509-15952-1puyn74'
+Command :: file -b --mime-type '/tmp/08b6a41ac0d19865720fdee65035981a20140509-15952-1j423lw'
+Command :: file -b --mime-type '/tmp/f51044ef8494fdf3a3750e1275114b5f20140509-15952-180jy20'
+Command :: file -b --mime-type '/tmp/6f4ac2c36c0b74d38444a3aec7091f4220140509-15952-zaypa8'
+Command :: file -b --mime-type '/tmp/cc3fb6f3b07b9ea55ae19631be5b833c20140509-15952-1s78sva'
+Command :: file -b --mime-type '/tmp/e1ad8fdf25b062664f8653b02e65438820140509-15952-1gkrec'
+Command :: file -b --mime-type '/tmp/6c6289a8ceb598148c9f831110138d3120140509-15952-1quk12j'
+Command :: file -b --mime-type '/tmp/088fb8f525da75d9c96919d9fc0b40db20140509-15952-ertqo5'
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/home/saasbook/Documents/odev/spec/assets/attachments/test.jpeg'
+Command :: file -b --mime-type '/tmp/f71604174f6da5b0ead384245a214ae720140509-15952-tvlxai'
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('email2@test.com') LIMIT 1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "T-Address"], ["city", "T-City"], ["country", "T-Country"], ["created_at", Fri, 09 May 2014 06:08:56 UTC +00:00], ["email", "email2@test.com"], ["name", "T-Name"], ["phone", "T-Phone"], ["state", "T-State"], ["updated_at", Fri, 09 May 2014 06:08:56 UTC +00:00], ["zip", "T-Zip"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('email1@test.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "T-Address"], ["city", "T-City"], ["country", "T-Country"], ["created_at", Fri, 09 May 2014 06:08:56 UTC +00:00], ["email", "email1@test.com"], ["name", "T-Name"], ["phone", "T-Phone"], ["state", "T-State"], ["updated_at", Fri, 09 May 2014 06:08:56 UTC +00:00], ["zip", "T-Zip"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStudent Load (0.2ms)[0m  SELECT DISTINCT "students".* FROM "students"
+  Rendered students/index.html.erb (43.4ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (2.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'tttest@tes.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:08:57 UTC +00:00], ["email", "tttest@tes.com"], ["encrypted_password", "$2a$04$zrQ9M936pPBGqloHg8e2yehUusqqLaRuXjfScu352Bvndh8uk1Grm"], ["name", "test"], ["updated_at", Fri, 09 May 2014 06:08:57 UTC +00:00]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered users/_user.html.erb (4.5ms)
+  [1m[35m (1.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:08:57 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:08:57 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:08:57 UTC +00:00], ["email", "test1@test.com"], ["encrypted_password", "$2a$04$DvF.m0b1D3gGtD7aXjgri.bg1hgfaLhUiRS0pEHAe97yMEvbkLoJi"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:08:57 UTC +00:00]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/students/1/messages.1" for 127.0.0.1 at 2014-05-09 03:08:57 -0300
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["last_sign_in_at", Fri, 09 May 2014 06:08:57 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:08:57 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:08:57 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by MessagesController#index as 
+  Parameters: {"student_id"=>"1"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMessage Load (0.0ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."student_id" = ?[0m  [["student_id", 1]]
+Warning. Error encountered while saving cache 5732f6be9c4a9665a83b3863a22ea0d4c477d88c/custom.css.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 2e67b659a9a9f97a485c039b608c538bbf254248/bootstrap.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/bootstrap.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_variables.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_mixins.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_reset.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_scaffolding.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_grid.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_layouts.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_type.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_code.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_forms.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_tables.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_sprites.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_dropdowns.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_wells.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_component-animations.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_close.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_buttons.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_button-groups.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_alerts.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_navs.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_navbar.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_breadcrumbs.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_pagination.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_pager.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_modals.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_tooltip.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_popovers.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_thumbnails.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_media.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_labels-badges.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_progress-bars.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_accordion.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_carousel.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_hero-unit.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 25489a91cc572bdcda9690cbc8fa221ed40cbfe9/_utilities.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 5732f6be9c4a9665a83b3863a22ea0d4c477d88c/home_pages.css.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 5732f6be9c4a9665a83b3863a22ea0d4c477d88c/messages.css.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 5732f6be9c4a9665a83b3863a22ea0d4c477d88c/sessions.css.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 5732f6be9c4a9665a83b3863a22ea0d4c477d88c/students.css.scssc: can't dump anonymous class #<Class:0xa739894>
+Warning. Error encountered while saving cache 5732f6be9c4a9665a83b3863a22ea0d4c477d88c/users.css.scssc: can't dump anonymous class #<Class:0xa739894>
+  Rendered layouts/_shim.html.erb (1.1ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 3529ms (Views: 3481.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$b0y0lxW1PmRhnr7Ozcie8.v04hXxBN3ofQi6wVKlzzxehLp6B0vY6"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$HRdhtLQYiNhHwwyedESRy.DD/xMynWbkdjbzmwcKrJ4xmuTjUBrV6"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$0RlpuBzSxvJ801zUFb27e.MbERT403YzrnY/P40O519v4lLqUpUwu"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.2ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$sj6jDf61axPZMqnc1CMGR.Z9gSUTAbZmP4tZkJcuJV/2WAYCf5plm"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$GpcQhtkNeMyE9NuDo/RFJOgYpb3YXc6a6BUJ6Y9jQ3LoqbsVxWwTC"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "messages" ("content", "created_at", "student_id", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["content", "MyText"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["student_id", 1], ["title", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["user_id", 1]]
+  [1m[36mMessage Load (0.1ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mAttachment Load (0.1ms)[0m  SELECT "attachments".* FROM "attachments" WHERE "attachments"."message_id" = ?  [["message_id", 1]]
+  [1m[36mStudent Load (0.1ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? ORDER BY "students"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (1.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test1@test.com"], ["encrypted_password", "$2a$04$sdzhbLYEDVFrJRmzKvFIxeH9GWKDpLQUUTIPTp0Y7vg8Rdk1NifDm"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/students.1" for 127.0.0.1 at 2014-05-09 03:09:01 -0300
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["last_sign_in_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StudentsController#index as 
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students"
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  Rendered students/_form.html.erb (7.5ms)
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'tttest@tes.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "tttest@tes.com"], ["encrypted_password", "$2a$04$u0QUM7Ek1d3vvFStWz15weNvIK1hm/x1wb0eqol2dBpCe1TNEzuc."], ["name", "test"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$oOZfmIdBZ4ti.qYozMrcNul4uuhJxuxwC47MP5Om1mZqHNsoUcAYS"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StudentsController#create as HTML
+  Parameters: {"student"=>{"name"=>"invalid value"}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 15ms (Views: 4.9ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$QHYaKBHn6hmmly8pB7NZQeuriURNcDxJvIJa2pPohNuaKuujLajeW"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StudentsController#create as HTML
+  Parameters: {"student"=>{"name"=>"invalid value"}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$uGoXKnqKYYozAphahSJW9umBqvPA6bq4j2jXDGT25cV1v3se9bCOO"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "students"
+Processing by StudentsController#create as HTML
+  Parameters: {"student"=>{"name"=>"MyString", "address"=>"MyString", "state"=>"MyString", "country"=>"MyString", "phone"=>"MyString", "email"=>"MyString@mystring.com", "zip"=>"45970", "city"=>"Istanbul"}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/students/1
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "students"
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$nMdt81gtbzLYGczQ2cNZe.fDePA9pQZOB/DMW6h0OElF8LlZUapEe"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StudentsController#create as HTML
+  Parameters: {"student"=>{"name"=>"MyString", "address"=>"MyString", "state"=>"MyString", "country"=>"MyString", "phone"=>"MyString", "email"=>"MyString@mystring.com", "zip"=>"45970", "city"=>"Istanbul"}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/students/1
+Completed 302 Found in 4ms (ActiveRecord: 1.7ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$VVbTLDr0qiNosCUzp/HL6OkQXc2BZF/j5/7sSyjzxjII9pdZ/x2I."], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StudentsController#create as HTML
+  Parameters: {"student"=>{"name"=>"MyString", "address"=>"MyString", "state"=>"MyString", "country"=>"MyString", "phone"=>"MyString", "email"=>"MyString@mystring.com", "zip"=>"45970", "city"=>"Istanbul"}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/students/1
+Completed 302 Found in 6ms (ActiveRecord: 0.8ms)
+  [1m[36mStudent Load (0.1ms)[0m  [1mSELECT "students".* FROM "students" ORDER BY "students"."id" DESC LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$IKxy7rsK.anNkhn.O6UpcOfVE5F5CUudzNpiQvOH5WOI9ImGxS1ha"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StudentsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+  [1m[36mStudent Load (0.1ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$0iuqlFR5.LF3l5UxelL35OGi3qgpsMeZpTk31ajx2DLzJvMxfceBG"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StudentsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (1.8ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$ld.X1aWImKzqYdZExHUa/.qq9JFj4dxSYICGRQp/sIwE/XhZ3aQQa"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StudentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.9ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$ckHkRcJhIhbcAKeAjpvu1OflPvi8AaOaHtYiS6hjAuGffXk4PNsRe"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StudentsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "students" WHERE "students"."id" = ?  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/students
+Completed 302 Found in 2ms (ActiveRecord: 0.6ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$Nu7DkvvkFMVd32hrVnbTIOwasX9BiCPQiOjgWDEGPaTfGyfQ.ptwe"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (2.8ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "students"
+Processing by StudentsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "students" WHERE "students"."id" = ?  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/students
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "students"
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$b/eW4ZrB6m7MG/KdTHdHD.cgfwtr2j95OYZFmnkDRmi4wvAxyv0i."], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StudentsController#update as HTML
+  Parameters: {"student"=>{"name"=>"invalid value"}, "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$qwrkwJ.zHGAQ.nXh0dqbX.J74row1q0zRQEwD/uO9rVlnNqlWpv8m"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StudentsController#update as HTML
+  Parameters: {"student"=>{"name"=>"invalid value"}, "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$4FCSf3qWnIhIju4Z4lWtQO2vGy8ewx/pQ9v5iD.i0gcWE4qViNGpa"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StudentsController#update as HTML
+  Parameters: {"student"=>{"name"=>"MyString"}, "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (1.3ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 1.4ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$qwa5zdJoPRZarfeVvHXoqO4750Po64DTSpXU72lKQHHFkowLsaVQW"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StudentsController#update as HTML
+  Parameters: {"student"=>{"name"=>"MyString", "address"=>"MyString", "state"=>"MyString", "country"=>"MyString", "phone"=>"MyString", "email"=>"MyString@mystring.com", "zip"=>"45970", "city"=>"Istanbul"}, "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE (LOWER("students"."email") = LOWER('MyString@mystring.com') AND "students"."id" != 1) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/students/1
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+  [1m[35m (1.3ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$nsV/ZvhUy4JY7a/lnQAiYOhl5CbPVUOGrnANaIlgJnDB5JA.DU33a"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StudentsController#update as HTML
+  Parameters: {"student"=>{"name"=>"MyString", "address"=>"MyString", "state"=>"MyString", "country"=>"MyString", "phone"=>"MyString", "email"=>"MyString@mystring.com", "zip"=>"45970", "city"=>"Istanbul"}, "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mStudent Load (0.1ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE (LOWER("students"."email") = LOWER('MyString@mystring.com') AND "students"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/students/1
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$/y8mAAv.7ptDFgewnc.ks.uXOSTuEPIBvggd.Gfy0yQk6WQp9JORu"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mStudent Load (0.1ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('email2@test.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "T-Address"], ["city", "T-City"], ["country", "T-Country"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "email2@test.com"], ["name", "T-Name"], ["phone", "T-Phone"], ["state", "T-State"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "T-Zip"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$Y8a19dFdCaHK3TVXPC4e.OFrkpEk7pNHgkMhbo.h1iz0YwcZpWqrm"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"student"=>"invalid value"}, "student_id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mStudent Load (0.1ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Unpermitted parameters: student
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$wiLT5lCGMktFr0teDpL5duKcMBc1yKTgMmI4pLTB1Q01BIvtrdtbW"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"student"=>"invalid value"}, "student_id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mStudent Load (0.0ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Unpermitted parameters: student
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$9LpOpmZiZLNUkSW2KC01mORBcdo7vt991vKMy8J4J8lQXmtNilDXu"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (3.1ms)[0m  SELECT COUNT(*) FROM "messages"
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (30.6ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."admin" = 't' ORDER BY "users"."id" ASC LIMIT 1[0m
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"title"=>"Message Title", "content"=>"Content", "student_id"=>"1", "user_id"=>"1"}, "student_id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mStudent Load (0.0ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Unpermitted parameters: student_id, user_id
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "messages" ("content", "created_at", "student_id", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["content", "Content"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["student_id", 1], ["title", "Message Title"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["user_id", 1]]
+  [1m[35mMessage Load (0.0ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mAttachment Load (0.0ms)[0m  [1mSELECT "attachments".* FROM "attachments" WHERE "attachments"."message_id" = ?[0m  [["message_id", 1]]
+  [1m[35mStudent Load (0.0ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? ORDER BY "students"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/students/1/messages/1
+Completed 302 Found in 14ms (ActiveRecord: 1.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "messages"[0m
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$onjX6.b5qn59Vq5V59Cl0ehtsBZoVxwu6cghJp/Y43/KfmVqW/tp6"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."admin" = 't' ORDER BY "users"."id" ASC LIMIT 1
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"title"=>"Message Title", "content"=>"Content", "student_id"=>"1", "user_id"=>"1"}, "student_id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+Unpermitted parameters: student_id, user_id
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "messages" ("content", "created_at", "student_id", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["content", "Content"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["student_id", 1], ["title", "Message Title"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["user_id", 1]]
+  [1m[36mMessage Load (0.0ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mAttachment Load (0.0ms)[0m  SELECT "attachments".* FROM "attachments" WHERE "attachments"."message_id" = ?  [["message_id", 1]]
+  [1m[36mStudent Load (0.0ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? ORDER BY "students"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/students/1/messages/1
+Completed 302 Found in 13ms (ActiveRecord: 1.2ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.8ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$U0FPinW4W6E4n7ZB28ZFIeWR2Qfff.J.236UOcfk9jtuMep2RBmg2"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."admin" = 't' ORDER BY "users"."id" ASC LIMIT 1
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"title"=>"Message Title", "content"=>"Content", "student_id"=>"1", "user_id"=>"1"}, "student_id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+Unpermitted parameters: student_id, user_id
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "messages" ("content", "created_at", "student_id", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["content", "Content"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["student_id", 1], ["title", "Message Title"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["user_id", 1]]
+  [1m[36mMessage Load (0.0ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mAttachment Load (0.0ms)[0m  SELECT "attachments".* FROM "attachments" WHERE "attachments"."message_id" = ?  [["message_id", 1]]
+  [1m[36mStudent Load (0.0ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? ORDER BY "students"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/students/1/messages/1
+Completed 302 Found in 13ms (ActiveRecord: 1.6ms)
+  [1m[35mMessage Load (0.1ms)[0m  SELECT "messages".* FROM "messages" ORDER BY "messages"."id" DESC LIMIT 1
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$aZ3E0vRw2eTmcpQcQPnXNeg.j0Y.8B4OYSmp10rx1kYEHNHohiwWG"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."admin" = 't' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "messages" ("content", "created_at", "student_id", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["content", "Content"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["student_id", 1], ["title", "Message Title"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["user_id", 1]]
+  [1m[35mMessage Load (0.1ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mAttachment Load (0.0ms)[0m  [1mSELECT "attachments".* FROM "attachments" WHERE "attachments"."message_id" = ?[0m  [["message_id", 1]]
+  [1m[35mStudent Load (0.0ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? ORDER BY "students"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by MessagesController#index as HTML
+  Parameters: {"student_id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (0.0ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMessage Load (0.0ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."student_id" = ?[0m  [["student_id", 1]]
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$PeRWEhosallKMXbo3XsFu.TukVApog0C/w4ea5Z.sKTX12sDKoZg."], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."admin" = 't' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "messages" ("content", "created_at", "student_id", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["content", "Content"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["student_id", 1], ["title", "Message Title"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["user_id", 1]]
+  [1m[36mMessage Load (1.1ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mAttachment Load (0.0ms)[0m  SELECT "attachments".* FROM "attachments" WHERE "attachments"."message_id" = ?  [["message_id", 1]]
+  [1m[36mStudent Load (0.0ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? ORDER BY "students"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"1", "student_id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mStudent Load (0.1ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMessage Load (0.1ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."student_id" = ? AND "messages"."id" = ? LIMIT 1  [["student_id", 1], ["id", "1"]]
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+  [1m[36m (1.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$BSPVrGxcYMB50IRLS4mem./RHSxAog2FqtbpJzU7HVGAN/xrSNCsC"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by MessagesController#new as HTML
+  Parameters: {"student_id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$3mab2pgKRwzB.Ksvqrf4oOvHDn/gTzz249zhn6ZwBBGsnqP7D2xyO"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."admin" = 't' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "messages" ("content", "created_at", "student_id", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["content", "Content"], ["created_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["student_id", 1], ["title", "Message Title"], ["updated_at", Fri, 09 May 2014 06:09:01 UTC +00:00], ["user_id", 1]]
+  [1m[35mMessage Load (0.0ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mAttachment Load (0.1ms)[0m  [1mSELECT "attachments".* FROM "attachments" WHERE "attachments"."message_id" = ?[0m  [["message_id", 1]]
+  [1m[35mStudent Load (0.0ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? ORDER BY "students"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by MessagesController#destroy as HTML
+  Parameters: {"id"=>"1", "student_id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMessage Load (0.0ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."student_id" = ? AND "messages"."id" = ? LIMIT 1[0m  [["student_id", 1], ["id", "1"]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "messages" WHERE "messages"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/students/1/messages
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$CcjmhfalsUZ3aLNVAESLpuCH.AWoGpVrmLAGoC0dhx9mDCDnYg4YG"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."admin" = 't' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "messages" ("content", "created_at", "student_id", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["content", "Content"], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["student_id", 1], ["title", "Message Title"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["user_id", 1]]
+  [1m[35mMessage Load (0.0ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mAttachment Load (0.0ms)[0m  [1mSELECT "attachments".* FROM "attachments" WHERE "attachments"."message_id" = ?[0m  [["message_id", 1]]
+  [1m[35mStudent Load (0.0ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? ORDER BY "students"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "messages"[0m
+Processing by MessagesController#destroy as HTML
+  Parameters: {"id"=>"1", "student_id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mStudent Load (1.9ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMessage Load (0.1ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."student_id" = ? AND "messages"."id" = ? LIMIT 1  [["student_id", 1], ["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "messages" WHERE "messages"."id" = ?  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/students/1/messages
+Completed 302 Found in 5ms (ActiveRecord: 2.3ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "messages"
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  Rendered shared/_error_students.html.erb (0.4ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (2.5ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$RncTDLCcVSKIzbp6b7zjZecoxzAKYKNs2xpmv2VJXHCCXu8qqoIuq"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"invalid value"}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$aa3cdCVzfwkuKA3DsSY8Juth.WBemoECrXqCi5R5fvBND69RigxYW"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"invalid value"}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$aQkEOgYxz0WEfjaxGlRAr.zoWuMRozNvDEB16HGjFdeKKfTukKELy"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"MyString", "email"=>"test1121@test.com", "admin"=>false}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Unpermitted parameters: admin
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (2.8ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$na2QMo0GwKkYFymHW1yPlOMwzA.s3jvqb4UgDzMK07oanmvJjpMp6"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/2
+Completed 302 Found in 14ms (ActiveRecord: 3.2ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$RJmFE9gGgqCP7MGMuf4U6eO85FuR4cpf81MKAOLAIIDn9z9hPfvvK"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"MyString", "email"=>"test1121@test.com", "admin"=>false}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Unpermitted parameters: admin
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$HXQCHusFAqGWJdrHjUiHTuXlYwlpADzF9QPYIsNmwkvMU2erAxXhK"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (6.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/users/2
+Completed 302 Found in 19ms (ActiveRecord: 7.2ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$kND0fldWjKKdoqXBmKz2Kef/xvoQj93HVOl5UUxiazaNLrorQbdRu"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"MyString", "email"=>"test1121@test.com", "admin"=>false}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Unpermitted parameters: admin
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$cgLxLEsd.CSBAH66Q7CvKunMpyhJn/aptDF5/oJQq3cOwg04X7zIa"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36mUser Load (5.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/users/2
+Completed 302 Found in 26ms (ActiveRecord: 6.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$.6kjwdhxm.qBs7nW41Qzc.aH7Ht/WRGBjmlaqpXkYFTgKH6RzrYgS"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$KpK9GMzS5Sz2acBZVvFpquJV/2hP2WX82BHhc1e.lLkq173qJ4v86"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."admin" = 'f'
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$OGkrmHWXlwUnMoGuW6F/g.rvAo4WFoNyDsywGXNi74evRnf/f0oYG"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$w.c6n1JwisrryqgEzPtrb.xE2hHu2hR50VO5gVfXukS9wdwBtGxkq"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$QPyhFl93E4Te5flMimUFEeFf/RcaUGLaRCzb/YCI5o680tLh4zpOq"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (4.6ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$4XnMiUGx2BjEPUji6asMsOT5bRySTw/YPqnYBiDKN5w4HVtoXEvFK"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$/JNTRrIGjoNlpIY2GjchX.A1kx50GvJnRJzDzCj.0ybOfG/n/t37G"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#destroy as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.7ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/users
+Completed 302 Found in 7ms (ActiveRecord: 4.0ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$3XMpkR4S4kAAPgM0sYVe/urnYCxoiYWLnBVdulwB42h5WD2zNEijW"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$4biBTBtu.B4TWdg2x6a9Y.vc6uuAWvnXU/ZOy6mwif3P.AEilYUFm"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+Processing by UsersController#destroy as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/users
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$yyruA/DI3/1VU42CWkQIY.xFxyp1G8sFmef9QezesKPbzTXHMy5ey"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$SZ81w0Mf/DmnuV7KuwAtEerwT2pm06GLl9eXbE/oiZ.lmzp0XwqGu"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#update as HTML
+  Parameters: {"user"=>{"name"=>"invalid value"}, "id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$bJk/Qyditw6zOxAUyvo/..izYU0tHoz2EQjZn2GYW9V/f5jQIc4mu"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$B6k6iVWjNz3gq.4K0OUZp.OZN/bPaXFZ6e/woFoW.dWUxvJD2rmqG"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.6ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#update as HTML
+  Parameters: {"user"=>{"name"=>"invalid value"}, "id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$9rcLDIWueHqHsmA19.8VvOGCNckX2s.JrTRukRLn4CDmNImyNA6iW"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$l3HvkKVWgiGKapfAERaAgeZHeJ04AD6p1qFeY9T/sUqodQfdFpvfO"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#update as HTML
+  Parameters: {"user"=>{"name"=>"MyString"}, "id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (2.5ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$480kKzUSCDM21GyYGLyMMOX0JClD3VBCJ4DRYM2eI0IA99OhJCVA6"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$yp.r3DiFr7npcp.ACrMrS.t/Wr.ndl71aOeig9.KkzgssccwpxJlG"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#update as HTML
+  Parameters: {"user"=>{"name"=>"MyString", "email"=>"test1121@test.com", "admin"=>false}, "id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+Unpermitted parameters: admin
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/2
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$pGVXBia1YRFak3ke.JNRauRVQ45rusVUkzAJAC6cYFTxICsAT/Au2"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$3Cmy6OM7uhZvsQNc/veV4ugAmwFoDd.DMtum.XpKEqCEcJ83Fzgn."], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#update as HTML
+  Parameters: {"user"=>{"name"=>"MyString", "email"=>"test1121@test.com", "admin"=>false}, "id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+Unpermitted parameters: admin
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/users/2
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$gthPu7iFqrBqqvjgXoepSuYovtub7.UENgaUCHtFVERYwrIFo3Uje"], ["name", "TESt"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test1121@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test1121@test.com"], ["encrypted_password", "$2a$04$pavAOdVe9B.61e8uT5Y0uOukyigZmNL9yfcmUq.Qu5ChyrAM0iEOK"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAttachment Load (0.1ms)[0m  [1mSELECT "attachments".* FROM "attachments" WHERE "attachments"."message_id" = ?[0m  [["message_id", 1009]]
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["zip", "45970"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE (LOWER("students"."email") = LOWER('mystring@mystring.com') AND "students"."id" != 1) LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mStudent Load (0.1ms)[0m  [1mSELECT "students".* FROM "students" ORDER BY "students"."id" ASC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("created_at", "email", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "arbitrary_string"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('arbitrary_string') LIMIT 1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('arbitrary_string') LIMIT 1
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mStudent Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mStudent Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('test@test') LIMIT 1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('test@test') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mStudent Exists (0.0ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mStudent Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mStudent Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+Processing by HomePagesController#home as HTML
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (7.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+Processing by HomePagesController#home as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/help" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+Processing by HomePagesController#help as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/help" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+Processing by HomePagesController#help as HTML
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/about" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+Processing by HomePagesController#about as HTML
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/about" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+Processing by HomePagesController#about as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$B9worwzKMT2UsDMFvuARPO1rk5O3NK3CyqZMjUMIHQJR4njP4ri2a"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$KKl1FmsGIwmfpJgKGXILnO/7FDN4WxA7aHh4nN.oQZGda5XWmhgUS"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/new.1" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+  [1m[35m (0.6ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["last_sign_in_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#new as 
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+Started POST "/users" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"Example User", "email"=>"user@example.com"}, "commit"=>"Create a User"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'user@example.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "user@example.com"], ["encrypted_password", "$2a$04$Sj2h.GSv5.7Rr6dCoUjuj.S5jd5IBILFgaPGIAKEcJ5/z1bzICOCi"], ["name", "Example User"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/2
+Completed 302 Found in 13ms (ActiveRecord: 0.6ms)
+Started GET "/users/2" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$61y0W5EYzE.YV9SRpoS28eZOTPosKAjtAkK78bpeFA.C00arKrNt2"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/new.1" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["last_sign_in_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#new as 
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"Example User", "email"=>"user@example.com"}, "commit"=>"Create a User"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'user@example.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "user@example.com"], ["encrypted_password", "$2a$04$LwFB1RU/bF6w1aSLxPIka.GW4SlVQboGhlQPE6fjxsr9dsCl5AL7a"], ["name", "Example User"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/2
+Completed 302 Found in 14ms (ActiveRecord: 0.7ms)
+Started GET "/users/2" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$oiVZrBIlOi9iOGcA7jkSTOQwHzslsfYPna/p.XuuhTDYoDIdF/3jG"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/new.1" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["last_sign_in_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:02 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#new as 
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+Started POST "/users" for 127.0.0.1 at 2014-05-09 03:09:02 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>""}, "commit"=>"Create a User"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered shared/_error_messages.html.erb (2.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 7.2ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$PkTPi/yTRyxSzTPKKQ9ogew0AosbXdCp/PzEZdTNY0flPVBQ9wsFK"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users.1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#index as 
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."admin" = 'f'[0m
+  Rendered collection (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$kOxA9yx0VG1Dc9svw/ASGuygMA81ArM8IRL7fFVlF4.RapIyxWUJa"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users.1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#index as 
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."admin" = 'f'[0m
+  Rendered collection (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (1.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$gdoXi30gpu/oHae2l7rZpuvLmaa1D2t32SWv2oRrm2cx8o3YORgsq"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users.1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#index as 
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."admin" = 'f'[0m
+  Rendered collection (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$wsN7HdfAPqc2zT5lZCNrAe0/Tj78XML6AAIwRE6Vqzl4RUyEB5KSC"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/users.1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#index as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."admin" = 'f'
+  Rendered collection (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test2@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test2@test.com"], ["encrypted_password", "$2a$04$/6gzVVp0f4jk13dEMDjEnOaEllu6i362M0ppQw6G0APA7/8UVxIXi"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."admin" = 't' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$sGXSYk9BQLX.j08r51zBkuyCmfoJLiRltq6.6p3hLX/WbGLX9NA9y"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$TlN/3FiIafhP0441GJrWgOLKPgqu4Ws4DgPO2XDEw4Tmu/dSq/Foq"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/users/1.2" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as 
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (7.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (3.9ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$DniXZV4oiTrsL/IdMIRLaOzhVcF9XVxrr43iMlXvfL93.iSrr8NVG"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/new.1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#new as 
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$bpoW0oAP3TRaiZohAXvkZOBWMC1RqbKbng5tkJTK5NjUiSqkYWUGm"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/users/new.1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#new as 
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$rSaaqQ4SmN/tFLF0Sr5cjei3B/txr1Y8o//4jjul3wCN1PS53168i"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$la1HN0bNZPtqT0imvtuzYeBBTz6JOvt/PClMput84BbqmkH3Ng68i"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/users/1/edit.2" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#edit as 
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.1ms)
+Started PATCH "/users/1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"New Name", "email"=>"new@example.com"}, "commit"=>"Save changes", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE ("users"."email" = 'new@example.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35mSQL (12.5ms)[0m  UPDATE "users" SET "name" = ?, "email" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["name", "New Name"], ["email", "new@example.com"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 16ms (ActiveRecord: 12.9ms)
+Started GET "/users/1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (4.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 14ms (Views: 8.2ms | ActiveRecord: 4.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$LtIsjmDj0jM4nEWr5Sqahe2rfjBVoM.OcXt/SZlpENij6Mb2FJTqC"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36mUser Load (2.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$k.QshCqg8quSnVqUM/cwQuY9DPQwBeDozbVzlpc8ns6T4uXYDNaX2"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/users/1/edit.2" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#edit as 
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered shared/_error_messages.html.erb (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.1ms)
+Started PATCH "/users/1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"New Name", "email"=>"new@example.com"}, "commit"=>"Save changes", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE ("users"."email" = 'new@example.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "name" = ?, "email" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["name", "New Name"], ["email", "new@example.com"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+Started GET "/users/1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$6iwomQFkLDm8dbF3gBoPruErZy6xJrBmnrX2ppEewCJ4CO4Xel7hG"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$UeStcwFP7KURzeqvXFqdre6CQXfyP4H591wo18XeekiE2Yjz01Riu"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/1/edit.2" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2[0m  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#edit as 
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.1ms)
+Started PATCH "/users/1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"New Name", "email"=>"new@example.com"}, "commit"=>"Save changes", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE ("users"."email" = 'new@example.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "name" = ?, "email" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["name", "New Name"], ["email", "new@example.com"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+Started GET "/users/1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$2C4hi98lRg3shrtbXUsrDeqzRgTgYh6FI8FHvjpEfTH2luCzHI06i"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$tnA4F2Qy1ahszoUOqQIBbev89Mcx2KxI11BhK/b7HXnTMhVobvnI."], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/users/1/edit.2" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#edit as 
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.1ms)
+Started PATCH "/users/1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"New Name", "email"=>"new@example.com"}, "commit"=>"Save changes", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE ("users"."email" = 'new@example.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "name" = ?, "email" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["name", "New Name"], ["email", "new@example.com"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+Started GET "/users/1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$eeBFba.aNzV8mvtfIugr2ubkwOjPCn/4k6QqYUoeD6zK0HzhgUD8O"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$zazsu1q9mO8zCZHVBW5hZ.OAZxd/rXFphgVPM8FuATcchfFWItj6a"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/1/edit.2" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2[0m  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#edit as 
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.1ms)
+Started PATCH "/users/1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"New Name", "email"=>"new@example.com"}, "commit"=>"Save changes", "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE ("users"."email" = 'new@example.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "name" = ?, "email" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["name", "New Name"], ["email", "new@example.com"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
+Started GET "/users/1" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCACHE (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.5ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'mystring@test.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "mystring@test.com"], ["encrypted_password", "$2a$04$aKcDT6sLRQTtDQGpHav7GOGIFO4S9W0RKcAhPZTZLX6wFYa8yglqa"], ["name", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("admin", "created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["admin", true], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "test@test.com"], ["encrypted_password", "$2a$04$7FzpEw0rsgkyfJQAfkEliOywSASFi3Qa1UZLurIeMCWSWtkpqL7zu"], ["name", "Test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/1/edit.2" for 127.0.0.1 at 2014-05-09 03:09:03 -0300
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2[0m  [["last_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["current_sign_in_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsersController#edit as 
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mStudent Exists (0.1ms)[0m  SELECT 1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER('MyString@mystring.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("address", "city", "country", "created_at", "email", "name", "phone", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "MyString"], ["city", "Istanbul"], ["country", "MyString"], ["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "mystring@mystring.com"], ["name", "MyString"], ["phone", "MyString"], ["state", "MyString"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["zip", "45970"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered messages/_attachment_fields.html.erb (39.8ms)
+  Rendered messages/_form.html.erb (64.9ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'tttest@tes.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "tttest@tes.com"], ["encrypted_password", "$2a$04$e8uealYPKjA1z3y1MSkwiu7hkhDb/YcEEWOuKMGjC6zWnbOaWzpIq"], ["name", "test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'tttest@tes.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 09 May 2014 06:09:03 UTC +00:00], ["email", "tttest@tes.com"], ["encrypted_password", "$2a$04$OZv.lZK.Uawi0JEb4ULrtuXLuy2TrElS2g8yl4dt.3U2hYMMZqP4i"], ["name", "test"], ["updated_at", Fri, 09 May 2014 06:09:03 UTC +00:00]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m

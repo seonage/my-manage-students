@@ -1,0 +1,41 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <%= link_to "Giron Brazilian Jiu Jitsu", root_path, id: "logo" %>
+      <nav>
+        <ul class="nav pull-right">
+          
+          
+          <% if current_user.present? %>
+            <li><%= link_to "Students", students_path %></li>
+
+            <% if current_user.admin? %>
+            <li><%= link_to "Users", users_path %></li>
+            <% end %>
+          
+            <li id="fat-menu" class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <%= current_user.name %> <b class="caret"></b>
+              </a>
+          
+              <ul class="dropdown-menu">
+
+                <li><%= link_to "Settings", edit_user_registration_path %></li>
+                <li class="divider"></li>
+                <li>
+                  <%= link_to "Sign Out", destroy_user_session_path, method: "delete" %>
+                </li>
+              </ul>
+          
+            </li>
+          
+          <% else %>
+            <li><%= link_to "Sign In", new_user_session_path %></li>
+          <% end %>
+    
+        </ul>
+      </nav>
+    
+    </div>
+  </div>
+</header>

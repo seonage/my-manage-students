@@ -1,0 +1,12 @@
+# encoding: UTF-8
+class MessageMailer < ActionMailer::Base
+  default from: 'srknyavuz86@gmail.com'
+
+  def send_mail(message_id)
+    @message = Message.find(message_id)
+    @message.attachments.each do |attachment|
+      attachments[attachment.file_file_name] = File.read(attachment.file.path)
+    end
+    mail(to: @message.student.email, subject: @message.title)
+  end
+end

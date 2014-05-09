@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Student:</strong>
+  <%= link_to @message.student.name, @message.student %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @message.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @message.content %>
+</p>
+<p>
+  <strong>Attachments:</strong>
+  <ul>
+  <% @message.attachments.each do |attachment| %>
+    <li><%=  link_to attachment.file_file_name, attachment.file.url %></li>
+  <% end %>
+  </ul>
+</p>
+
+<%= link_to 'Back', student_messages_path(@message.student) %>

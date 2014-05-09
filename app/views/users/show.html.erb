@@ -1,0 +1,15 @@
+<% provide(:title, @user.name) %>
+<body>
+<div class="row-fluid">
+  <ul class="users">
+    <section>
+      <h5>Name: <%= @user.name %> </h5>
+       <h5>Email: <%= @user.email %></h5>
+       <% if current_user.admin? %>
+       <%= link_to "Edit", edit_user_path(@user), class: "btn btn-primary btn-primary" %>
+       <% end %>
+    </section>
+  </ul>
+</div>
+
+</body>
